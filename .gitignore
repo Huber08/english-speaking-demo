@@ -11,3 +11,6 @@ desktop.ini
 
 # 日志
 *.log
+
+# Word 文档（不上传 GitHub，单独提交）
+*.docx

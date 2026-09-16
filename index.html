@@ -206,6 +206,7 @@
         <option value="female">👩 女声</option>
         <option value="male">👨 男声</option>
       </select>
+      <select id="voiceListSelect" class="hidden" title="设备可用语音（手动选择，优先于性别筛选）"></select>
       <label class="rate-box">语速
         <input type="range" id="rateRange" min="0.6" max="1" step="0.05" value="0.9">
         <span id="rateVal">0.9x</span>
@@ -334,6 +335,7 @@ const els = {
   input: $("sentenceInput"),
   accentSelect: $("accentSelect"),
   genderSelect: $("genderSelect"),
+  voiceListSelect: $("voiceListSelect"),
   voiceHint: $("voiceHint"),
   rateRange: $("rateRange"),
   rateVal: $("rateVal"),
